@@ -13,16 +13,19 @@ Installation
 3. Open the Vagrantfile script using your favourite IDE and change the config as you need. The specific configuration can be found in the next part of this document.
 
 4. From your console/terminal, inside the main directory, run the vagrant with following command and wait until it finishes.
+
 ```
 vagrant up
 ```
 
 5. Once it is finished, enter the node1 machine by following command
+
 ````
 vagrant ssh node1
 ```
 
 6. After it enters the shell of node1, run the script for configuring password-less SSH to slave nodes by executing following commands
+
 ```
 sudo chmod +x /vagrant/scripts/setup-ssh.sh
 

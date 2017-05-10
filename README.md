@@ -20,7 +20,7 @@ vagrant up
 
 5. Once it is finished, enter the node1 machine by following command
 
-````
+```
 vagrant ssh node1
 ```
 
@@ -28,7 +28,6 @@ vagrant ssh node1
 
 ```
 sudo chmod +x /vagrant/scripts/setup-ssh.sh
-
 /vagrant/script/setup-ssh.sh -t [n]
 ```
 
